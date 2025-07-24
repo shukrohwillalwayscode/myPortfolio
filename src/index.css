@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-tablet: 821px;
+  --breakpoint-mobile: 500px;
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #5a6d90, #c585b9);
+}
