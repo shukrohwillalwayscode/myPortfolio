@@ -1,4 +1,3 @@
-// src/components/Contact.jsx
 import React from "react";
 
 function Contact() {
@@ -16,12 +15,10 @@ function Contact() {
       </p>
 
       <div className="flex flex-col items-center space-y-6">
-        {/* Email Link */}
         <a
           href="mailto:abdurraheemshukroh2018@gmail.com"
           className="flex items-center text-blue-600 hover:text-blue-800 text-xl font-medium transition-colors duration-200"
         >
-          {/* Email Icon SVG */}
           <svg
             className="w-8 h-8 mr-3"
             fill="currentColor"
@@ -34,14 +31,12 @@ function Contact() {
           abdurraheemshukroh2018@gmail.com
         </a>
 
-        {/* LinkedIn Link */}
         <a
           href="https://www.linkedin.com/in/abdurraheem-shukroh/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center text-blue-600 hover:text-blue-800 text-xl font-medium transition-colors duration-200"
         >
-          {/* LinkedIn Icon SVG */}
           <svg
             className="w-8 h-8 mr-3"
             fill="currentColor"
@@ -57,12 +52,10 @@ function Contact() {
           LinkedIn Profile
         </a>
 
-        {/* Phone Number */}
         <a
           href="tel:+2349016716914"
           className="flex items-center text-blue-600 hover:text-blue-800 text-xl font-medium transition-colors duration-200"
         >
-          {/* Phone Icon SVG */}
           <svg
             className="w-8 h-8 mr-3"
             fill="currentColor"
@@ -74,9 +67,7 @@ function Contact() {
           +2349016716914
         </a>
 
-        {/* Location */}
         <p className="flex items-center text-gray-700 text-lg">
-          {/* Location Icon SVG */}
           <svg
             className="w-6 h-6 mr-3"
             fill="currentColor"

@@ -1,43 +1,36 @@
-// src/components/Header.jsx
 import React, { useState } from "react";
 
 const Header = () => {
-  const [toggle, setToggle] = useState(false); // State to control mobile menu visibility
+  const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => {
-    setToggle(!toggle); // Toggle the state
+    setToggle(!toggle);
   };
 
-  // Helper function for smooth scrolling to sections and closing the mobile menu
   const handleNavLinkClick = (e, targetId) => {
-    e.preventDefault(); // Prevent default anchor link behavior
-    const targetElement = document.getElementById(targetId.substring(1)); // Get the element by ID (remove the '#')
+    e.preventDefault();
+    const targetElement = document.getElementById(targetId.substring(1));
     if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" }); // Smooth scroll
-      setToggle(false); // Close the mobile menu after clicking a link
+      targetElement.scrollIntoView({ behavior: "smooth" });
+      setToggle(false);
     }
   };
 
   return (
-    // Outer div for the sticky header
     <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
-      {/* Inner section for content, keeping max-width and centered */}
       <section className="flex justify-between items-center max-w-[1440px] mx-auto px-6 py-4 h-20">
-        {/* Logo/Name */}
         <main>
           <a href="/" className="flex items-center">
             {" "}
-            {/* Link to top of page */}
             <h1 className="text-3xl font-bold text-blue-950">
               SHUKROH ABDURRAHEEM
             </h1>
           </a>
         </main>
 
-        {/* Desktop Navigation - Hidden on small screens, shown on medium and up */}
         <nav className="hidden md:flex gap-6 items-center">
           <a
-            href="#about"
+            href="/"
             onClick={(e) => handleNavLinkClick(e, "#about")}
             className="text-gray-800 hover:text-blue-600 transition duration-300 font-medium"
           >
@@ -66,14 +59,12 @@ const Header = () => {
           </a>
         </nav>
 
-        {/* Hamburger Icon for Mobile - Visible only on small screens */}
         <div className="md:hidden flex items-center">
           <button
             onClick={handleToggle}
             className="text-blue-950 focus:outline-none"
           >
             {toggle ? (
-              // Close icon (X) when menu is open
               <svg
                 className="w-8 h-8"
                 fill="none"
@@ -89,7 +80,6 @@ const Header = () => {
                 ></path>
               </svg>
             ) : (
-              // Hamburger icon when menu is closed
               <svg
                 className="w-8 h-8"
                 fill="none"
@@ -109,20 +99,17 @@ const Header = () => {
         </div>
       </section>
 
-      {/* Mobile Menu Overlay - Slides in from left */}
       <div
         className={`fixed top-0 left-0 w-full h-full bg-white z-40 transform transition-transform duration-300 ease-in-out ${
-          toggle ? "translate-x-0" : "-translate-x-full" // Slide in/out effect
-        } md:hidden`} // Only visible on mobile
+          toggle ? "translate-x-0" : "-translate-x-full"
+        } md:hidden`}
       >
         <div className="flex justify-end p-6">
           {" "}
-          {/* Close button in top-right of mobile menu */}
           <button
             onClick={handleToggle}
             className="text-blue-950 focus:outline-none"
           >
-            {/* Close icon */}
             <svg
               className="w-8 h-8"
               fill="none"
