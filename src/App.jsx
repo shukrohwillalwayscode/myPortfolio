@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import About from "./About";
 import Header from "../src/header/Header";
 import Skills from "./assets/Skills";
