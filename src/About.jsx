@@ -61,7 +61,7 @@ function About() {
             </p>
           </a>
           <a
-            href="/SHUKROH ABDURRAHEEM CV_RESUME .pdf"
+            href="/SHUKROH_ABDURRAHEEM CV_RESUME .pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:scale-110 transition-transform duration-200"
