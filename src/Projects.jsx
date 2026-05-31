@@ -7,28 +7,37 @@ function Projects() {
       title: "Meta About Page Clone",
       description:
         "A responsive front-end clone of the Meta About page, demonstrating layout, styling, and basic interactivity.",
-      image: "/project/metapage.png", // Path to your saved image
+      image: "/project/metapage.png",
       technologies: ["HTML", "CSS", "JavaScript"],
-      liveLink: "https://meta-about-project.vercel.app/", // <-- REPLACE WITH YOUR ACTUAL LIVE LINK
-      githubLink: "https://github.com/shukrohwillalwayscode/Meta-project", // <-- REPLACE WITH YOUR ACTUAL GITHUB LINK
+      liveLink: "https://meta-about-project.vercel.app/",
+      githubLink: "https://github.com/shukrohwillalwayscode/Meta-project",
     },
     {
       title: "SMILE Recruitment Form",
       description:
         "A responsive web application for recruitment, enabling users to input details and view them instantly. Built with modern front-end tools.",
-      image: "/project/form.png", // Path to your saved image
+      image: "/project/form.png",
       technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"],
-      liveLink: "https://react-form-alpha-one.vercel.app/", // <-- REPLACE WITH YOUR ACTUAL LIVE LINK
-      githubLink: "https://github.com/shukrohwillalwayscode/React-form", // <-- REPLACE WITH YOUR ACTUAL GITHUB LINK
+      liveLink: "https://react-form-alpha-one.vercel.app/",
+      githubLink: "https://github.com/shukrohwillalwayscode/React-form",
     },
     {
       title: "PiggyVest.com Clone",
       description:
         "A responsive front-end clone of the PiggyVest website, replicating its user interface and core design elements.",
-      image: "/project/piggyvest.png", // Path to your saved image
-      technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"], // Adjust if different for this project
-      liveLink: "https://react-piggy-lime.vercel.app/", // <-- REPLACE WITH YOUR ACTUAL LIVE LINK
-      githubLink: "https://github.com/shukrohwillalwayscode/react-piggy", // <-- REPLACE WITH YOUR ACTUAL GITHUB LINK
+      image: "/project/piggyvest.png",
+      technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"],
+      liveLink: "https://react-piggy-lime.vercel.app/",
+      githubLink: "https://github.com/shukrohwillalwayscode/react-piggy",
+    },
+    {
+      title: "Smilecollections Store",
+      description:
+        "SmileCollections is a responsive e-commerce web application built with React and Tailwind CSS.",
+      image: "/project/smilecollections UI.png",
+      technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"],
+      liveLink: "https://smilecollections-store.vercel.app//",
+      githubLink: "•	github.com/shukrohwillalwayscode/smilecollections-store",
     },
   ];
 
