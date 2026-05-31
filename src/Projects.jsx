@@ -4,6 +4,16 @@ import React from "react";
 function Projects() {
   const projects = [
     {
+      title: "Smilecollections Store",
+      description:
+        "SmileCollections is a responsive e-commerce web application built with React and Tailwind CSS.",
+      image: "/project/smilecollections UI.png",
+      technologies: ["React.tsx", "Tailwind CSS", "TypeScript", "HTML"],
+      liveLink: "https://smilecollections-store.vercel.app//",
+      githubLink:
+        "https://github.com/shukrohwillalwayscode/smilecollections-store",
+    },
+    {
       title: "Meta About Page Clone",
       description:
         "A responsive front-end clone of the Meta About page, demonstrating layout, styling, and basic interactivity.",
@@ -12,15 +22,15 @@ function Projects() {
       liveLink: "https://meta-about-project.vercel.app/",
       githubLink: "https://github.com/shukrohwillalwayscode/Meta-project",
     },
-    {
-      title: "SMILE Recruitment Form",
-      description:
-        "A responsive web application for recruitment, enabling users to input details and view them instantly. Built with modern front-end tools.",
-      image: "/project/form.png",
-      technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"],
-      liveLink: "https://react-form-alpha-one.vercel.app/",
-      githubLink: "https://github.com/shukrohwillalwayscode/React-form",
-    },
+    // {
+    //   title: "SMILE Recruitment Form",
+    //   description:
+    //     "A responsive web application for recruitment, enabling users to input details and view them instantly. Built with modern front-end tools.",
+    //   image: "/project/form.png",
+    //   technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"],
+    //   liveLink: "https://react-form-alpha-one.vercel.app/",
+    //   githubLink: "https://github.com/shukrohwillalwayscode/React-form",
+    // },
     {
       title: "PiggyVest.com Clone",
       description:
@@ -29,15 +39,6 @@ function Projects() {
       technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"],
       liveLink: "https://react-piggy-lime.vercel.app/",
       githubLink: "https://github.com/shukrohwillalwayscode/react-piggy",
-    },
-    {
-      title: "Smilecollections Store",
-      description:
-        "SmileCollections is a responsive e-commerce web application built with React and Tailwind CSS.",
-      image: "/project/smilecollections UI.png",
-      technologies: ["React.js", "Tailwind CSS", "JavaScript", "HTML"],
-      liveLink: "https://smilecollections-store.vercel.app//",
-      githubLink: "•	github.com/shukrohwillalwayscode/smilecollections-store",
     },
   ];
 

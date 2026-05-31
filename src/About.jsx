@@ -9,27 +9,21 @@ function About() {
           versatile
         </h3>
         <h1 className="text-blue-950 text-4xl font-bold mb-5 max-tablet:text-3xl max-sm:text-2xl">
-          SOFTWARE DEVELOPER
+          FRONTEND DEVELOPER
         </h1>
 
         <p className="max-w-prose leading-relaxed text-gray-700 mb-8 max-tablet:max-w-full max-tablet:mx-auto">
-          Passionate about crafting seamless, user-friendly web experiences.
-          Specializes in the <b className="text-blue-800">MERN stack</b>{" "}
-          (MongoDB, Express.js, React.js, Node.js); builds responsive designs
-          with <b className="text-blue-800">Tailwind CSS</b>. Brings a robust
-          technical foundation to every project.
-          <br />
-          <br />
-          Possesses strong aptitude for clear communication, robust
-          organizational abilities, and adaptable problem-solving. These
-          qualities prove paramount in developing innovative, resilient web
-          solutions. Applies a structured, efficient approach to projects,
-          ensuring high-quality outcomes.
-          <br />
-          <br />
-          Thrives on challenging projects and collaborative environments.
-          Actively seeks opportunities for growth, mentorship, and contributing
-          to impactful technological advancements.
+          I'm Shukroh Abdurraheem, a Frontend Developer who enjoys turning ideas
+          into interactive and responsive web experiences. My journey into tech
+          started with curiosity and has grown into a passion for building
+          applications that solve real problems. I work primarily with React,
+          TypeScript, JavaScript, and Tailwind CSS, and I enjoy creating clean,
+          reusable components that make development more efficient and scalable.
+          I believe great software should be both functional and intuitive,
+          which is why I focus on writing maintainable code and designing
+          user-friendly interfaces. As I continue growing in my career, I'm
+          excited about opportunities to contribute to impactful products while
+          expanding my skills in frontend and full-stack development.
         </p>
 
         <div className="flex items-center  max-tablet:justify-center mt-6 space-x-6">
@@ -61,7 +55,7 @@ function About() {
             </p>
           </a>
           <a
-            href="/SHUKROH_ABDURRAHEEM CV_RESUME.pdf"
+            href="/SHUKROH ABURRAHEEM  Resume_CV .pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:scale-110 transition-transform duration-200"
@@ -79,12 +73,12 @@ function About() {
           className="relative rounded-tr-4xl rounded-tl-4xl rounded-br-4xl rounded-bl-4xl overflow-hidden"
           style={{
             padding: "10px",
-            background: "#997BA8",
-            border: "groove",
+            background: "#efece9",
+            border: "cover",
           }}
         >
           <img
-            src="/headshot.png"
+            src="/Shukroh Abdurraheem.jpg"
             alt="Shukroh Abdurraheem"
             className="w-full h-auto object-cover  block"
             style={{ borderRadius: "inherit" }}
